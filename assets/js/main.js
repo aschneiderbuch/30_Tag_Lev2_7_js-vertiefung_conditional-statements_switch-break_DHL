@@ -63,7 +63,7 @@ function showtxt() {
 
     switch (inputVergleich) {
         case 0:
-            outputErgebnis =
+            outputErgebnis =      // Vorischt anstatt ""  `` nehmen ;-)
                 `<b>Brief und Postkarte</b> <br>
             L: 10 - 23,5 cm
             B: 7 - 12,5 cm
