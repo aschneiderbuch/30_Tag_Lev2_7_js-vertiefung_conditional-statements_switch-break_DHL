@@ -101,4 +101,8 @@ function showtxt() {
     outputText.innerHTML = outputErgebnis;    // komisch geht nur wenn es so steht
     // wenn outputErgebnis = outputText.innerHTML   geht es nicht
     console.log(outputText.innerHTML);
+
+    let test = outputText.innerHTML;
+console.log(test);
 }
+
