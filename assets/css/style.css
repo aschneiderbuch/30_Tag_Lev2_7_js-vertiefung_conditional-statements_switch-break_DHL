@@ -1,15 +1,16 @@
-h1 {
-  color: green;
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 30vh;
 }
-
-.dhl {
+body .dhl {
   display: flex;
   color: #D40511;
   background-color: #FFCC00;
   height: 9em;
-  width: 25em;
+  width: 35em;
 }
-.dhl .dhlButton {
+body .dhl .dhlButton {
   border: 2px solid #D40511;
   color: #fff;
   background-color: #D40511;
@@ -25,13 +26,13 @@ h1 {
   white-space: normal;
   transition: color 200ms, background-color 200ms, border-color 200ms;
 }
-.dhl .dhlButton:hover {
+body .dhl .dhlButton:hover {
   color: #D40511;
   background-color: #fff;
   outline: 0;
   border-color: #D40511;
 }
-.dhl .boxMasse {
+body .dhl .boxMasse {
   margin: 5px;
   width: 200px;
   border: 2px solid #D40511;
