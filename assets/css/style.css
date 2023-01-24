@@ -2,22 +2,17 @@ h1 {
   color: green;
 }
 
-:root {
-  --dhl-red: #D40511;
-  --dhl-yellow: #FFCC00;
-}
-
 .dhl {
   display: flex;
-  color: var(--dhl-red);
-  background-color: var(--dhl-yellow);
+  color: #D40511;
+  background-color: #FFCC00;
   height: 9em;
   width: 25em;
 }
 .dhl .dhlButton {
-  border: 2px solid var(--dhl-red);
+  border: 2px solid #D40511;
   color: #fff;
-  background-color: var(--dhl-red);
+  background-color: #D40511;
   margin: 5px;
   display: inline-flex;
   align-items: center;
@@ -31,15 +26,15 @@ h1 {
   transition: color 200ms, background-color 200ms, border-color 200ms;
 }
 .dhl .dhlButton:hover {
-  color: var(--dhl-red);
+  color: #D40511;
   background-color: #fff;
   outline: 0;
-  border-color: var(--dhl-red);
+  border-color: #D40511;
 }
 .dhl .boxMasse {
   margin: 5px;
   width: 200px;
-  border: 2px solid var(--dhl-red);
+  border: 2px solid #D40511;
   border-radius: 5px;
   padding: 10px;
 }
