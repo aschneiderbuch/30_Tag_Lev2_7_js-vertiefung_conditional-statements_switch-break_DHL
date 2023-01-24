@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,109 +12,47 @@
         sass --watch assets/scss/main.scss assets/css/style.css
      -->
 </head>
+
 <body>
     <h1>test</h1>
-    
 
-    :root {
-        --dhl-red: #D40511;
-        --dhl-yellow: #FFCC00;
-    }
-    
-    .dhl {
-        display: flex;
-        color: var(--dhl-red);
-        background-color: var(--dhl-yellow);
-        height: 9em;
-        width: 25em;
-    }
-    
-    .boxMasse {
-        margin: 5px;
-        width: 200px;
-        border:2px solid var(--dhl-red);;
-        border-radius: 5px;
-        padding: 10px
-    }
-    
-    .dhlButton {
-        border: 2px solid var(--dhl-red);;
-        color: #fff;
-        background-color: var(--dhl-red);;
-        margin: 5px;
-        display: inline-flex;
-        align-items: center;
-        padding: .5rem 3.8rem;
-        border: 2px solid #d1d1d1;
-        border-radius: 0;
-        cursor: pointer;
-        outline: 0;
-        font-weight: 500;
-        white-space: normal;
-        transition: color 200ms,background-color 200ms,border-color 200ms;
-    }
-    .dhlButton:hover {
-        color: var(--dhl-red);;
-        background-color: #fff;
-        outline: 0;
-        border-color: var(--dhl-red);;
-    }
-    
+
+
+
     <div class="dhl">
-          <form id="myform">
+        <form id="myform">
             <select name="mylist" size="3" id="mylist">
-              <option value="0">Briefe</option>
-              <option value="0">Postkarte</option>
-              <option value="1">Bücher bis 500g</option>
-              <option value="1">Bücher bis 1000g</option>
-              <option value="1">MacBook Air</option>
-              <option value="2">Drucker</option>
-              <option value="2">Mikrowelle</option>
-              <option value="3">Kleinmöbel</option>
-              <option value="3">kleine Kühlschränke</option>
+                <option value="0">Briefe</option>
+                <option value="0">Postkarte</option>
+                <option value="1">Bücher bis 500g</option>
+                <option value="1">Bücher bis 1000g</option>
+                <option value="1">MacBook Air</option>
+                <option value="2">Drucker</option>
+                <option value="2">Mikrowelle</option>
+                <option value="3">Kleinmöbel</option>
+                <option value="3">kleine Kühlschränke</option>
             </select>
-            <a
-              type="button"
-              class="dhlButton"
-              onclick="showtxt()"
-              value="Paketgröße und -gewicht"
-              >Paketgröße und -gewicht</a
-            >
-          </form>
-          <div class="boxMasse">
+            <a id="button" type="button" class="dhlButton" donclick="showtxt()" value="Paketgröße und -gewicht">Paketgröße und
+                -gewicht</a>
+        </form>
+        <div class="boxMasse">
             <table>
-              <tr>
-                <td><b>Größe und Gewicht:</b></td>
-                <td id="masse"></td>
-              </tr>
+                <tr>
+                    <td><b>Größe und Gewicht:</b></td>
+                    <td id="masse"></td>
+                </tr>
             </table>
-          </div>
         </div>
-    
-    
-    
-    JS Assets
-    
-    <b>Brief und Postkarte</b> <br>
-            L: 10 - 23,5 cm
-            B: 7 - 12,5 cm
-            H: bis 1 cm
-    
-    <b>DHL Paket 2 kg</b> <br>
-          bis 60 x 30 x 15 cm
-    
-    <b>DHL Paket 5 kg</b> <br>
-          bis 120 x 60 x 60 cm
-    
-    <b>DHL Paket 10 kg</b> <br>
-          bis 120 x 60 x 60 cm
-    
-    "<b>Extra große Größe</b>
-    
-    
-    
+    </div>
+
+
+
+
+
+
 
 
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
